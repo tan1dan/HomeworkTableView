@@ -11,10 +11,18 @@ class TableViewCell: UITableViewCell {
     let view = SecondView()
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        contentView.addSubview(view)
+        view.translatesAutoresizingMaskIntoConstraints = false
         
+        NSLayoutConstraint.activate([
+            view.topAnchor.constraint(equalTo: contentView.topAnchor),
+            view.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            view.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            view.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
+        ])
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
 }
