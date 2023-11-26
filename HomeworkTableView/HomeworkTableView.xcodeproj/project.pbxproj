@@ -18,6 +18,7 @@
 		F73B143F2B13D40D008F34A4 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B143C2B13D40D008F34A4 /* SecondView.swift */; };
 		F73B14402B13D40D008F34A4 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B143D2B13D40D008F34A4 /* ThirdView.swift */; };
 		F73B14412B13D40D008F34A4 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73B143E2B13D40D008F34A4 /* ThirdView.xib */; };
+		F73B14432B13D80F008F34A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B14422B13D80F008F34A4 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F73B143C2B13D40D008F34A4 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		F73B143D2B13D40D008F34A4 /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		F73B143E2B13D40D008F34A4 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		F73B14422B13D80F008F34A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				F73066B62B13D18E00C0CC05 /* SceneDelegate.swift */,
 				F73066B82B13D18E00C0CC05 /* ViewController.swift */,
 				F73B143A2B13D3F8008F34A4 /* FirstView.swift */,
+				F73B14422B13D80F008F34A4 /* TableViewCell.swift */,
 				F73B143C2B13D40D008F34A4 /* SecondView.swift */,
 				F73B143D2B13D40D008F34A4 /* ThirdView.swift */,
 				F73B14382B13D3C7008F34A4 /* FirstView.xib */,
@@ -160,6 +163,7 @@
 				F73B143B2B13D3F8008F34A4 /* FirstView.swift in Sources */,
 				F73066B52B13D18E00C0CC05 /* AppDelegate.swift in Sources */,
 				F73B14402B13D40D008F34A4 /* ThirdView.swift in Sources */,
+				F73B14432B13D80F008F34A4 /* TableViewCell.swift in Sources */,
 				F73066B72B13D18E00C0CC05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
