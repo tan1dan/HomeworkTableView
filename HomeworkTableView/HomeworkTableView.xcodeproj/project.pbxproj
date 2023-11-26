@@ -13,6 +13,11 @@
 		F73066BC2B13D18E00C0CC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73066BA2B13D18E00C0CC05 /* Main.storyboard */; };
 		F73066BE2B13D19000C0CC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73066BD2B13D19000C0CC05 /* Assets.xcassets */; };
 		F73066C12B13D19000C0CC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73066BF2B13D19000C0CC05 /* LaunchScreen.storyboard */; };
+		F73B14392B13D3C7008F34A4 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73B14382B13D3C7008F34A4 /* FirstView.xib */; };
+		F73B143B2B13D3F8008F34A4 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B143A2B13D3F8008F34A4 /* FirstView.swift */; };
+		F73B143F2B13D40D008F34A4 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B143C2B13D40D008F34A4 /* SecondView.swift */; };
+		F73B14402B13D40D008F34A4 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B143D2B13D40D008F34A4 /* ThirdView.swift */; };
+		F73B14412B13D40D008F34A4 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73B143E2B13D40D008F34A4 /* ThirdView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F73066BD2B13D19000C0CC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F73066C02B13D19000C0CC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F73066C22B13D19000C0CC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73B14382B13D3C7008F34A4 /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		F73B143A2B13D3F8008F34A4 /* FirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		F73B143C2B13D40D008F34A4 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		F73B143D2B13D40D008F34A4 /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		F73B143E2B13D40D008F34A4 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				F73066B42B13D18E00C0CC05 /* AppDelegate.swift */,
 				F73066B62B13D18E00C0CC05 /* SceneDelegate.swift */,
 				F73066B82B13D18E00C0CC05 /* ViewController.swift */,
+				F73B143A2B13D3F8008F34A4 /* FirstView.swift */,
+				F73B143C2B13D40D008F34A4 /* SecondView.swift */,
+				F73B143D2B13D40D008F34A4 /* ThirdView.swift */,
+				F73B14382B13D3C7008F34A4 /* FirstView.xib */,
+				F73B143E2B13D40D008F34A4 /* ThirdView.xib */,
 				F73066BA2B13D18E00C0CC05 /* Main.storyboard */,
 				F73066BD2B13D19000C0CC05 /* Assets.xcassets */,
 				F73066BF2B13D19000C0CC05 /* LaunchScreen.storyboard */,
@@ -126,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73066C12B13D19000C0CC05 /* LaunchScreen.storyboard in Resources */,
+				F73B14392B13D3C7008F34A4 /* FirstView.xib in Resources */,
 				F73066BE2B13D19000C0CC05 /* Assets.xcassets in Resources */,
+				F73B14412B13D40D008F34A4 /* ThirdView.xib in Resources */,
 				F73066BC2B13D18E00C0CC05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73066B92B13D18E00C0CC05 /* ViewController.swift in Sources */,
+				F73B143F2B13D40D008F34A4 /* SecondView.swift in Sources */,
+				F73B143B2B13D3F8008F34A4 /* FirstView.swift in Sources */,
 				F73066B52B13D18E00C0CC05 /* AppDelegate.swift in Sources */,
+				F73B14402B13D40D008F34A4 /* ThirdView.swift in Sources */,
 				F73066B72B13D18E00C0CC05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
